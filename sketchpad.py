@@ -6,7 +6,6 @@ def init_sketchpad():
     screen.title("Interactive Sketchpad")
     screen.bgcolor("white")
     
-    turtle.hideturtle() # Hide the turtle as requested
     turtle.speed(0)
     turtle.width(2)
     screen.tracer(0) # Disable auto-animation for instant drawing
